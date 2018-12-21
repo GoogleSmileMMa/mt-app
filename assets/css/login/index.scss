@@ -1,0 +1,60 @@
+.header {
+  position: relative;
+  width: 980px;
+  height: auto;
+  margin: 40px auto 30px;
+}
+
+.header .site-logo {
+  margin: 0;
+  width: 82px;
+  height: 54px;
+  background-position: -188px -808px;
+  background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+  background-size: initial;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.promotion-banner {
+  float: left;
+  height: 370px;
+  margin: 0 115px 0 0;
+  width: 480px;
+}
+.login-type {
+  font-weight: 400;
+  color: #666;
+}
+
+.login-section .icon {
+  position: absolute;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  top: 16px;
+  left: 9px;
+  line-height: 18px;
+  vertical-align: text-top;
+}
+.login-section .icon-user {
+  width: 18px;
+  height: 18px;
+  background-position: -1250px -617px;
+  background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+}
+.f-text {
+  position: relative;
+  width: 230px;
+  padding-left: 33px;
+}
+.btn {
+  color: #fff;
+  background-color: #2db3a6;
+  border-color: #008177;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF2EC3B4', endColorstr='#FF2DB3A6');
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+  background-size: 100%;
+  background-image: linear-gradient(to bottom, #2ec3b4, #2db3a6);
+}
