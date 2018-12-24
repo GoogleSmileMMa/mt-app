@@ -22,19 +22,17 @@
       }
     },
     mounted() {
-      this.axios.get('/users/getUser').then(({
-        status,
-        data
-      }) => {
-        if (status.code === 200) {
-          this.user = user
-        }
-      })
+    //   this.axios.get('/users/getUser').then(({
+    //     status,
+    //     data
+    //   }) => {
+    //     if (status.code === 200) {
+    //       this.user = user
+    //     }
+    //   })
     }
   }
 
 </script>
-<style lang="scss">
-  @import "../../../assets/css/public/layout.scss";
-
+<style>
 </style>

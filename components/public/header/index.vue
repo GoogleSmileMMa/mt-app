@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import topBar from "./topbar.vue"
-import searchBar from "./searchbar.vue"
+import topBar from "./topbar"
+import searchBar from "./searchbar"
 export default {
 components:{
     topBar,
@@ -25,6 +25,6 @@ components:{
 </script>
 
 <style lang="scss">
-    @import "../../../assets/css/public/header/index.scss";
+    @import "@/assets/css/public/header/index.scss";
 </style>
 
